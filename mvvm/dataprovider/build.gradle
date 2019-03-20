@@ -1,15 +1,15 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.android.library'
+
 android {
     compileSdkVersion 28
+
 
     dataBinding {
         enabled = true
     }
 
+
     defaultConfig {
-        applicationId "com.enjoytoday.model"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -33,5 +33,4 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
 
-    api project(':baselibray')
 }
