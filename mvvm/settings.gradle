@@ -1,2 +1,1 @@
-include ':mvvm', ':mainapp'
-include "mvp"
+include ':app', ':base', ':test'
