@@ -1,2 +1,2 @@
-include ':app', ':base', ':test'
+include ':app', ':base', ':test', ':user'
 

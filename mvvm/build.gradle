@@ -54,8 +54,7 @@ ext {
     rxJavaVersion = ''
     retrofitVersion = '2.1.0'
     okHttpVersion = '3.4.1'
-
-
+    glideVersion = '4.9.0'
 
 
 }

@@ -3,6 +3,7 @@ package cn.enjoytoday.base.base
 import android.app.Application
 import android.content.Context
 import cn.enjoytoday.base.BuildConfig
+import cn.enjoytoday.base.utils.SPUtils
 import com.alibaba.android.arouter.launcher.ARouter
 
 /**
@@ -16,6 +17,7 @@ open class BaseApplication:Application() {
         super.onCreate()
         context = this.applicationContext
         initARouter()
+        SPUtils.init(context,Common.APP_SP_NAME)
     }
 
 

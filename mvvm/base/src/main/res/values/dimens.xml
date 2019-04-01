@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="headerHeight">46dp</dimen>
+    <dimen name="common_padding">16dp</dimen>
+    <dimen name="textSmallerSize">12sp</dimen>
+    <dimen name="textNormalSize">14sp</dimen>
+    <dimen name="textMiddleSize">16sp</dimen>
+    <dimen name="textBigSize">18sp</dimen>
+
+</resources>
