@@ -20,6 +20,7 @@ class ViewModelFactory private constructor(private val mApplication: Application
      */
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         return when {
+            modelClass.isAssignableFrom(LoginViewModel::class.java) -> LoginViewModel(mApplication,tasksRepository) as T
             modelClass.isAssignableFrom(UserViewModel::class.java) -> UserViewModel(mApplication, tasksRepository) as T
             modelClass.isAssignableFrom(ContactViewModel::class.java) -> ContactViewModel(mApplication, tasksRepository) as T
             modelClass.isAssignableFrom(CallViewModel::class.java) -> CallViewModel(mApplication, tasksRepository) as T

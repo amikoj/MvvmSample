@@ -1,17 +1,16 @@
-package cn.enjoytoday.backup.user.register
+package cn.enjoytoday.backup.user
 
 import android.os.Bundle
 import cn.enjoytoday.base.base.BaseActivity
 
 /**
- * @ClassName RegisterActivity
- * @Description 注册界面
+ * @ClassName ForgetActivity
+ * @Description TODO
  * @Author hfcai
- * @Date 2019/4/1 16:58
+ * @Date 2019/4/2 11:05
  * @Version 1.0
  */
-class RegisterActivity: BaseActivity() {
-
+class ForgetActivity:BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

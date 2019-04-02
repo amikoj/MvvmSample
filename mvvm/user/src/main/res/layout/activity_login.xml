@@ -5,12 +5,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     
     <data>
-        <import type="cn.enjoytoday.base.pojo.UserInfo"/>
+        <import type="cn.enjoytoday.base.viewmodel.LoginViewModel"/>
 
-        <!--声明需要使用的变量名和类的全路径 -->
         <variable
-            name="userInfo"
-            type="UserInfo" />
+            name="viewModel"
+            type="LoginViewModel"/>
+        <!--声明需要使用的变量名和类的全路径 -->
+
         
     </data>
     
@@ -38,7 +39,6 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:hint="请输入用户名"
-            android:text="@{userInfo.name}"
             android:padding="10dp"
             android:textSize="14sp"
             android:inputType="text"
@@ -65,8 +65,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-
-
         <TextView
             android:id="@+id/goIv"
             app:layout_constraintTop_toBottomOf="@id/pwdEt"
@@ -92,8 +90,6 @@
             app:layout_constraintBottom_toBottomOf="@id/goIv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-
-
 
 
 

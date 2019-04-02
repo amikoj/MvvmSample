@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#00008B</color>
     <color name="colorAccent">#D81B60</color>
 
+    <color name="colorStatusBar">#afafafaf</color>
 
     <color name="colorWhite">#fff</color>
     <color name="colorBlack">#000</color>
