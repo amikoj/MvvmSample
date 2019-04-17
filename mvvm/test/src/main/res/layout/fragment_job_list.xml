@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="viewmodel"
+                  type="com.worfu.peagang.viewmodel.TestListViewModel"/>
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.worfu.peagang.base.widget.HeadBarView
+                android:id="@+id/headerBar"
+                app:title="兼职列表"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/contentLayout"
+                app:layout_constraintTop_toBottomOf="@id/headerBar"
+                app:layout_constraintStart_toStartOf="parent"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:paddingBottom="20dp"
+                    android:id="@+id/jobRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

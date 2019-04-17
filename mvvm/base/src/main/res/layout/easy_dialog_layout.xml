@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="19dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="3dp">
+
+        <LinearLayout
+            android:paddingTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="12dp"
+                android:gravity="center"
+                android:text="提示"
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:visibility="gone"
+                android:id="@+id/mTvContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="19dp"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:id="@+id/mFrameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorLine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/mTvLeftButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_transport"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="#444444"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/mVCenterLine"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorLine" />
+
+                <TextView
+                    android:id="@+id/mTvRightButton"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_transport"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textColor="@color/common_green"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

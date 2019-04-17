@@ -1,7 +1,6 @@
 package cn.enjoytoday.base.viewmodel
 
-import android.app.Application
-import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.ViewModel
 import cn.enjoytoday.base.data.base.BaseRepository
 
 /**
@@ -11,9 +10,6 @@ import cn.enjoytoday.base.data.base.BaseRepository
  * @Date 2019/4/2 11:44
  * @Version 1.0
  */
-class LoginViewModel:AndroidViewModel {
+class LoginViewModel(val respository:BaseRepository): ViewModel() {
 
-    constructor(context: Application, respository: BaseRepository):super(context){
-
-    }
 }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="common_divider_height" tools:ignore="MissingDefaultResource">1px</dimen>
+    <dimen name="common_divider_width">1px</dimen>
+    <dimen name="common_header_bar_height">50dp</dimen>
+    <dimen name="common_header_bar_height_small">40dp</dimen>
+    <dimen name="activity_height_large_big">300dp</dimen>
+    <dimen name="activity_height_large_middle">250dp</dimen>
+    <dimen name="activity_height_large_small">200dp</dimen>
+    <dimen name="activity_height_small_large">160dp</dimen>
+    <dimen name="activity_height_large">150dp</dimen>
+    <dimen name="activity_height">100dp</dimen>
+    <dimen name="common_icon_height">50dp</dimen>
+    <dimen name="common_icon_width">50dp</dimen>
+    <dimen name="common_icon_width_big">85dp</dimen>
+    <dimen name="common_icon_height_big">85dp</dimen>
+    <dimen name="common_line_height">50dp</dimen>
+    <dimen name="common_margin_big_large">40dp</dimen>
+    <dimen name="common_margin_small_large">35dp</dimen>
+    <dimen name="common_margin_large">30dp</dimen>
+    <dimen name="common_margin_big">25dp</dimen>
+    <dimen name="common_margin">12dp</dimen>
+    <dimen name="common_margin_middle">10dp</dimen>
+    <dimen name="common_margin_small">5dp</dimen>
+    <dimen name="common_padding_big_large">30dp</dimen>
+    <dimen name="common_padding_large">25dp</dimen>
+    <dimen name="common_padding_big">20dp</dimen>
+    <dimen name="common_padding">15dp</dimen>
+    <dimen name="common_padding_middle">10dp</dimen>
+    <dimen name="common_padding_small">5dp</dimen>
+    <dimen name="common_radius">6dp</dimen>
+    <dimen name="common_border_size">1px</dimen>
+    <dimen name="common_border_big_size">4dp</dimen>
+
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_middle">14sp</dimen>
+    <dimen name="text_size_big">15sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_very_large">36sp</dimen>
+
+    <!--BottomNavigationView 的选中没有选中的字体大小-->
+    <dimen tools:override="true" name="design_bottom_navigation_active_text_size">12dp</dimen>
+    <dimen tools:override="true" name="design_bottom_navigation_text_size" >12dp</dimen>
+    <dimen tools:override="true" name="fixed_label_active" >12dp</dimen>
+    <dimen tools:override="true" name="fixed_height_top_padding_inactive" >0dp</dimen>
+    <dimen tools:override="true" name="fixed_label_inactive" >12dp</dimen>
+    <dimen tools:override="true" name="fixed_icon_grid" >20dp</dimen>
+</resources>

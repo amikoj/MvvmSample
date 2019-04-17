@@ -1,3 +1,16 @@
 <resources>
-    <string name="module_name">base</string>
+	<string name="app_name">base</string>
+
+	<string name="base">这是一个中文标题</string>
+	<string name="base_long">这是一个很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的中文标题</string>
+	<string name="base_short">标题</string>
+	<string name="base_en">this is a title</string>
+	<string name="base_long_en">this is a looooooooooooooooooooooooooooooooooooooooooooooooooooooong title</string>
+	<string name="base_short_en">title</string>
+
+
+	<string name="wx_share">微信分享</string>
+	<string name="mob_share">MOB分享</string>
+
+
 </resources>

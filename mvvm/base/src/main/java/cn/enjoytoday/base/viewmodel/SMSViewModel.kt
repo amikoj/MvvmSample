@@ -2,11 +2,9 @@ package cn.enjoytoday.base.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.ViewModel
 import cn.enjoytoday.base.data.base.BaseRepository
 
-class SMSViewModel : AndroidViewModel {
+class SMSViewModel(val respository:BaseRepository): ViewModel() {
 
-    constructor(context: Application, respository: BaseRepository):super(context){
-
-    }
 }

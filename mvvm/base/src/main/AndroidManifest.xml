@@ -1,10 +1,81 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.enjoytoday.base" >
+          package="com.worfu.peagang.base">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!--允许程序访问WiFi网络信息-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--允许程序读写手机状态和身份-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--允许程序访问CellID或WiFi热点来获取粗略的位置-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application>
+
+
+        <!-- 微信分享回调 -->
+        <activity
+            android:name=".wechat.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:label="@string/wx_share"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:label="@string/mob_share"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+
+
+        <!--百度埋点接入-->
+
+        <!-- 您从百度网站获取的APP KEY，根据实际您的APP申请的APP_KEY进行修改 -->
+        <meta-data
+                android:name="BaiduMobAd_STAT_ID"
+                android:value="${BAIDU_STAT_ID}" />
+
+        <!-- 渠道商编号 -->
+        <meta-data
+                android:name="BaiduMobAd_CHANNEL"
+                android:value="${CHANNEL}" />
+
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+                android:name="BaiduMobAd_EXCEPTION_LOG"
+                android:value="${IS_EXCEPTION_LOG}" />
+
+        <!-- 日志仅在wifi网络下发送，默认为false -->
+        <meta-data
+                android:name="BaiduMobAd_ONLY_WIFI"
+                android:value="${IS_ONLY_WIFI}" />
+
+        <!-- 是否获取基站位置信息 ,默认为true -->
+        <meta-data
+                android:name="BaiduMobAd_CELL_LOCATION"
+                android:value="${IS_CELL_LOCATION}" />
+
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data
+                android:name="BaiduMobAd_GPS_LOCATION"
+                android:value="${IS_GPS_LOCATION}" />
+
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data
+                android:name="BaiduMobAd_WIFI_LOCATION"
+                android:value="${IS_WIFI_LOCATION}" />
+
+    </application>
 
 
 </manifest>

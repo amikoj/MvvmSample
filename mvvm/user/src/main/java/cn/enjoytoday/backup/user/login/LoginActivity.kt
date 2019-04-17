@@ -5,10 +5,8 @@ import android.os.Handler
 import cn.enjoytoday.backup.user.ForgetActivity
 import cn.enjoytoday.base.base.BaseActivity
 import cn.enjoytoday.base.base.RouterPath
-import cn.enjoytoday.base.onClick
 import cn.enjoytoday.base.pojo.UserInfo
 import com.alibaba.android.arouter.facade.annotation.Route
-import kotlinx.android.synthetic.main.activity_login.*
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 
@@ -19,14 +17,13 @@ class LoginActivity : BaseActivity(),LoginListener{
     override fun login() {
         //登陆
 
-
     }
 
     override fun forgetPwd() {
        startActivity<ForgetActivity>()
     }
 
-//    private lateinit var binder:ActivityLoginBinding
+//    private lateinit var binder: ActivityLoginBinding
 //    private lateinit var binder:
     private lateinit var user:UserInfo
 
@@ -39,10 +36,10 @@ class LoginActivity : BaseActivity(),LoginListener{
 //        user = UserInfo(name = "hfcai",pwd = "hfcai")
 //        binder.userInfo = user
 //        binder.listener = this
-        headerBar.getLeftView().onClick {
-            //退出
-            onBackPressed()
-        }
+//        headerBar.getLeftView().onClick {
+//            //退出
+//            onBackPressed()
+//        }
     }
 
 

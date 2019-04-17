@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">testApp</string>
+    <string name="app_name">test</string>
+
+
+    <string-array name="apiTypeArray">
+        <item>全部</item>
+        <item>测试</item>
+    </string-array>
+
+
+    <string-array name="apiPathArray">
+        <item>/test/test1</item>
+        <item>/test/test2</item>
+    </string-array>
+
 </resources>
