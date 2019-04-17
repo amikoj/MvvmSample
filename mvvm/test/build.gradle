@@ -27,6 +27,8 @@ android {
             useProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
+
+            manifestPlaceholders = debugManifest
         }
 
         release {
@@ -34,6 +36,7 @@ android {
             useProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
+            manifestPlaceholders = releaseManifest
         }
     }
 
@@ -45,6 +48,13 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    api project(':base')
+    implementation project(':base')
+    kapt "androidx.lifecycle:lifecycle-compiler:$archLifecycleVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
     kapt "com.alibaba:arouter-compiler:$arouterCompilerVersion"
+    kapt 'com.github.bumptech.glide:compiler:4.9.0'
+    // 屏幕适配
+    implementation 'me.jessyan:autosize:1.1.2'
+
+
 }

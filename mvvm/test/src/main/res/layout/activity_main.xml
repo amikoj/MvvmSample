@@ -1,97 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <data>
-        <import type="android.view.View"/>
-        <variable name="main"
-                  type="com.worfu.peagang.viewmodel.MainViewModel"/>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="main"
+            type="com.worfu.peagang.viewmodel.MainViewModel" />
 
     </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_height="match_parent"
-            android:layout_width="match_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
-        <com.worfu.peagang.base.widget.HeadBarView
-                android:id="@+id/headerBar"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:title="测试主页"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+        <cn.enjoytoday.base.widgets.HeadBarView
+            android:id="@+id/headerBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="测试主页" />
 
 
         <LinearLayout
-                android:orientation="vertical"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/headerBar"
-                app:layout_constraintBottom_toBottomOf="parent"
-                android:gravity="center"
-                android:padding="60dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/headerBar">
 
 
             <Button
-                    android:id="@+id/bindingActivity_0"
-                    android:layout_width="300dp"
-                    android:text="网络请求测试调试"
-                    android:onClick="@{(view) -> main.onClick(view)}"
-                    android:layout_height="wrap_content"/>
+                android:id="@+id/bindingActivity_0"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:onClick="@{(view) -> main.onClick(view)}"
+                android:text="网络请求测试调试" />
 
             <Button
-                    android:id="@+id/bindingFragment_0"
-                    android:layout_width="300dp"
-                    android:text="绑定Fragment0"
-                    android:onClick="@{(view) -> main.onClick(view)}"
-                    android:layout_height="wrap_content"/>
-
-
-            <Button
-                    android:id="@+id/bindingWx"
-                    android:layout_width="300dp"
-                    android:text="绑定Wxx"
-                    android:onClick="@{(view) -> main.onClick(view)}"
-                    android:layout_height="wrap_content"/>
+                android:id="@+id/bindingFragment_0"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:onClick="@{(view) -> main.onClick(view)}"
+                android:text="绑定Fragment0" />
 
 
             <Button
-                    android:id="@+id/bindingFragmentList_0"
-                    android:layout_width="300dp"
-                    android:text="列表测试界面"
-                    android:onClick="@{(view) -> main.onClick(view)}"
-                    android:layout_height="wrap_content"/>
+                android:id="@+id/bindingWx"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:onClick="@{(view) -> main.onClick(view)}"
+                android:text="绑定Wxx" />
 
 
             <Button
-                    android:id="@+id/bindingFragment1"
-                    android:layout_width="300dp"
-                    android:text="绑定fragment1"
-                    android:onClick="@{(view) -> main.onClick(view)}"
-                    android:layout_height="wrap_content"/>
+                android:id="@+id/bindingFragmentList_0"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:onClick="@{(view) -> main.onClick(view)}"
+                android:text="列表测试界面" />
+
 
             <Button
-                    android:id="@+id/bindingActivity1"
-                    android:layout_width="300dp"
-                    android:text="绑定activity1"
-                    android:onClick="@{(view) -> main.onClick(view)}"
-                    android:layout_height="wrap_content"/>
+                android:id="@+id/bindingFragment1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:onClick="@{(view) -> main.onClick(view)}"
+                android:text="绑定fragment1" />
+
+            <Button
+                android:id="@+id/bindingActivity1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:onClick="@{(view) -> main.onClick(view)}"
+                android:text="绑定activity1" />
 
 
         </LinearLayout>
 
 
         <FrameLayout
-                android:id="@+id/contentFragment"
-                android:background="@color/white"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:layout_width="match_parent"
-                android:visibility="@{safeUnbox(main.showFragment)?View.VISIBLE:View.GONE}"
-                android:layout_height="match_parent"/>
+            android:id="@+id/contentFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:visibility="@{safeUnbox(main.showFragment)?View.VISIBLE:View.GONE}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

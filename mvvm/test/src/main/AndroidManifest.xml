@@ -3,7 +3,6 @@
 	package="com.worfu.peagang">
 
 	<application
-		android:name=".ui.App"
 		android:allowBackup="true"
 		android:icon="@mipmap/ic_launcher"
 		android:label="@string/app_name"
@@ -41,11 +40,6 @@
 				<action android:name="android.intent.action.VIEW" />
 			</intent-filter>
 		</activity>
-		<activity
-			android:theme="@style/DefaultCityPickerTheme"
-			android:name="com.worfu.peagang.WxxActivity"
-			android:label="wxx" />
-
 		<activity android:name=".ui.act.TestBindingActivity" />
 	</application>
 

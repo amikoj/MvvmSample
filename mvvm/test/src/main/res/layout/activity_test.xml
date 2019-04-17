@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
 
         <import type="android.view.View"/>
@@ -13,7 +14,7 @@
             android:layout_width="match_parent">
 
 
-        <com.worfu.peagang.base.widget.HeadBarView
+        <cn.enjoytoday.base.widgets.HeadBarView
                 android:id="@+id/headerBar"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -35,7 +36,6 @@
                     android:id="@+id/modelSpinner"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:entries="@array/apiTypeArray"
                     android:layout_width="wrap_content"
                     app:entries="@{viewModel.types}"
                     android:layout_height="80dp"/>

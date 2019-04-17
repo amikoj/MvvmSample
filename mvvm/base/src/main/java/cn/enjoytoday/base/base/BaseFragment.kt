@@ -9,7 +9,11 @@ import androidx.fragment.app.Fragment
 /**
  * Fragment基类
  */
-class BaseFragment: Fragment() {
+open class BaseFragment: Fragment() {
+
+    open val TAG = this.javaClass.simpleName
+    protected var label:String = ""
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return super.onCreateView(inflater, container, savedInstanceState)
@@ -22,4 +26,5 @@ class BaseFragment: Fragment() {
     override fun onDestroy() {
         super.onDestroy()
     }
+
 }

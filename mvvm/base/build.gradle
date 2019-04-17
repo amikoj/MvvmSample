@@ -27,6 +27,9 @@ android {
             useProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
+            buildConfigField("String", "SERVER_ADDRESS", "\"http://test.enjoytoday.cn\"")
+
+            manifestPlaceholders = debugManifest
         }
 
         release {
@@ -34,6 +37,8 @@ android {
             useProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
+            buildConfigField("String", "SERVER_ADDRESS", "\"http://www.enjoytoday.cn\"")
+            manifestPlaceholders = releaseManifest
         }
     }
 
@@ -46,38 +51,65 @@ android {
 
 dependencies {
     // ARouter
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    /**
+     *  添加基础依赖
+     */
     api "com.alibaba:arouter-api:$arouterApiVersion"
     kapt "com.alibaba:arouter-compiler:$arouterCompilerVersion"
 
     // Anko Commons
     api "org.jetbrains.anko:anko-commons:$ankoVersion"
 
+    //线程库管理
+    api "com.google.guava:guava:$guavaVersion"
+
+    //本地数据存储
+    api "androidx.room:room-runtime:$roomVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
+
+    //glide 图片处理
+    api 'com.github.bumptech.glide:glide:4.5.0'
+    kapt 'com.github.bumptech.glide:compiler:4.5.0'
+
+    //androidx
     api "androidx.appcompat:appcompat:$appCompatVersion"
     api "androidx.constraintlayout:constraintlayout:$constraintVersion"
     api "androidx.cardview:cardview:$cardVersion"
     api "com.google.android.material:material:$materialVersion"
     api "androidx.recyclerview:recyclerview:$recyclerViewVersion"
     api "androidx.annotation:annotation:$androidXAnnotations"
-
     api "androidx.legacy:legacy-support-v4:$androidXLegacySupport"
-    api "androidx.test.espresso:espresso-idling-resource:$espressoVersion"
-    api "com.google.guava:guava:$guavaVersion"
-    api "androidx.room:room-runtime:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
-
-    // Architecture Components
-    implementation "androidx.room:room-runtime:$roomVersion"
-    kapt "androidx.room:room-compiler:$roomVersion"
     api "androidx.lifecycle:lifecycle-extensions:$archLifecycleVersion"
     kapt "androidx.lifecycle:lifecycle-compiler:$archLifecycleVersion"
 
-    // Dependencies for local unit tests
-    api "junit:junit:$junitVersion"
-//    implementation "org.mockito:mockito-all:$mockitoVersion"
+    //Retrofit
+    api "com.squareup.okhttp3:okhttp:${okHttpVersion}"
+    api "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    api "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}"
+    api "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
 
-    implementation "androidx.test.espresso:espresso-idling-resource:$espressoVersion"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //BaseRecyclerViewAdapterHelper
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
 
-    api 'com.github.bumptech.glide:glide:4.9.0'
-    kapt 'com.github.bumptech.glide:compiler:4.9.0'
+    //配置协程框架
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
+
+    //百度移动埋点
+    api 'com.baidu.mobstat:mtj-sdk-circle:latest.integration'
+
+    // 权限管理
+    api 'com.github.tbruyelle:rxpermissions:0.10.2'
+
+    // 沉浸式状态栏
+    api 'com.gyf.immersionbar:immersionbar:2.3.3'
+    api "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+
+
+
+
+
+
 }

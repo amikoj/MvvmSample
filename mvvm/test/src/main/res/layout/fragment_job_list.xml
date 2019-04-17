@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <com.worfu.peagang.base.widget.HeadBarView
+        <cn.enjoytoday.base.widgets.HeadBarView
                 android:id="@+id/headerBar"
                 app:title="兼职列表"
                 app:layout_constraintStart_toStartOf="parent"

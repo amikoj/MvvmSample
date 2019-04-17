@@ -45,4 +45,5 @@
     <dimen tools:override="true" name="fixed_height_top_padding_inactive" >0dp</dimen>
     <dimen tools:override="true" name="fixed_label_inactive" >12dp</dimen>
     <dimen tools:override="true" name="fixed_icon_grid" >20dp</dimen>
+
 </resources>

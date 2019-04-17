@@ -4,7 +4,10 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
+
+    <color name="colorWhite">#fff</color>
     <color name="colorLine">#DFDFDF</color>
+    <color name="colorGray">#88888888</color>
 
     <color name="colorBasicWhite">#ffffff</color>
     <color name="colorAutoDismissToast">#88000000</color>
