@@ -13,165 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79012dee-2a24-48e5-9079-5f96122ca1d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/widgets/HeadBarView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/api/TestApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_3_3_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_3_3_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/base/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/GlideModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/ViewModelHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/BaseApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/BaseApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/BaseFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/Common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/Common.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/base/BaseDataSource.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/base/BaseRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/protocol/BaseResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/protocol/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/pojo/TestData.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/pojo/UserInfo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/viewmodel/CallViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/viewmodel/ContactViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/viewmodel/LoginViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/viewmodel/PhotosViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/viewmodel/SMSViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/viewmodel/ScheduleViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/viewmodel/TestViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/viewmodel/UserViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/widgets/HeaderBar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/widgets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/Event.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/Extensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/Extensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/ViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/ViewModelFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/annotation/AnnotationExpression.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/annotation/AnnotationInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/annotation/AnnotationInfo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/annotation/TestRemoteApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/annotation/TestRemoteApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/base/BaseActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/base/BaseApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/base/BaseFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/base/BaseTakePhotoActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/base/BaseTakePhotoFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/base/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/base/BaseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/base/Common.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/base/RouterPath.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/data/BaseRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/BaseRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/data/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/Repository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/data/local/LocalBaseRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/local/LocalBaseRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/data/remote/BaseResp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/remote/BaseResp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/data/remote/LiveDataCallAdapterFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/remote/LiveDataCallAdapterFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/data/remote/RemoteRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/remote/RemoteRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/data/remote/RetrofitFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/data/remote/RetrofitFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/liveData/CallAdapterLiveData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/liveData/CallAdapterLiveData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/liveData/NetStateLiveData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/liveData/NetStateLiveData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/model/CityModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/model/DistrictModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/model/ProvinceModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/model/TestData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/model/TestData.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/mvvm/BaseAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/mvvm/BaseAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/mvvm/BaseMvvmActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/mvvm/BaseMvvmActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/mvvm/BaseMvvmFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/mvvm/BaseMvvmFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/AddressPickUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/AppExecutors.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/DateUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/utils/DateUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/DiskIOThreadExecutor.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/EncodeUtils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/GsonUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/LocationUtils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/LogUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/utils/LogUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/NetWorkUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/utils/NetWorkUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/SPUtils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/ShareUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/ToastUtils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/java/cn/enjoytoday/base/utils/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/wechat/WXEntryActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/widget/EasyDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/java/com/worfu/peagang/base/widget/HeadBarView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/res/layout/easy_dialog_layout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/res/layout/layout_header_bar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/src/main/jni/AppTest.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/src/main/jni/AppTest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/net/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/test/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/JobUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/JobUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/TestMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/TestMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/WxxActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/api/JobApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/api/JobApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/api/TestApi.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/ui/App.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/ui/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/ui/SpinnerBinding.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/ui/SpinnerBinding.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/ui/TestListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/ui/TestListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/ui/act/TestBindingActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/ui/act/TestBindingActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/ui/fragment/OtherFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/ui/fragment/OtherFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/ui/fragment/TestFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/ui/fragment/TestFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/ui/fragment/TestListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/ui/fragment/TestListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/viewmodel/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/viewmodel/LoginViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/viewmodel/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/viewmodel/MainViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/viewmodel/TestListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/viewmodel/TestListViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/viewmodel/TestViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/viewmodel/TestViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/com/worfu/peagang/viewmodel/WxxViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/viewmodel/WxxViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/drawable/bg_freetime_item_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/drawable/bg_freetime_item_selected.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/drawable/border_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/drawable/border_bottom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/drawable/textarea_shape.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/drawable/textarea_shape.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/layout/activity_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/layout/activity_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/layout/activity_wxx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/layout/fragment_job_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/layout/fragment_job_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/androidTest/java/cn/enjoytoday/backup/user/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/app/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/cn/enjoytoday/backup/user/ForgetActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/cn/enjoytoday/backup/user/UserApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/cn/enjoytoday/backup/user/login/LoginActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/cn/enjoytoday/backup/user/login/LoginListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/cn/enjoytoday/backup/user/register/RegisterActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/layout/activity_forget.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/layout/activity_register.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/java/cn/enjoytoday/backup/user/ExampleUnitTest.kt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -407,8 +249,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/JobUtils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="288">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -7037,10 +6879,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="571" />
-    <option name="y" value="163" />
-    <option name="width" value="1340" />
-    <option name="height" value="807" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -7855,8 +7697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/src/main/java/cn/enjoytoday/test/JobUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="288">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
