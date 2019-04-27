@@ -1,4 +1,4 @@
-package com.worfu.peagang.ui
+package cn.enjoytoday.test.ui
 
 import androidx.annotation.IntegerRes
 import androidx.lifecycle.Observer
@@ -7,11 +7,11 @@ import com.worfu.peagang.R
 import cn.enjoytoday.base.base.RouterPath
 import cn.enjoytoday.base.mvvm.BaseMvvmActivity
 import com.worfu.peagang.databinding.ActivityMainBinding
-import com.worfu.peagang.ui.act.TestBindingActivity
-import com.worfu.peagang.ui.fragment.OtherFragment
-import com.worfu.peagang.ui.fragment.TestFragment
-import com.worfu.peagang.ui.fragment.TestListFragment
-import com.worfu.peagang.viewmodel.MainViewModel
+import cn.enjoytoday.test.ui.act.TestBindingActivity
+import cn.enjoytoday.test.ui.fragment.OtherFragment
+import cn.enjoytoday.test.ui.fragment.TestFragment
+import cn.enjoytoday.test.ui.fragment.TestListFragment
+import cn.enjoytoday.test.viewmodel.MainViewModel
 import org.jetbrains.anko.startActivity
 
 

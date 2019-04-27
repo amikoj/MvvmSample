@@ -10,7 +10,7 @@
 
         <variable
             name="main"
-            type="com.worfu.peagang.viewmodel.MainViewModel" />
+            type="cn.enjoytoday.test.viewmodel.MainViewModel" />
 
     </data>
 

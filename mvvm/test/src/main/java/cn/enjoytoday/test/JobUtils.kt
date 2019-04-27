@@ -1,4 +1,4 @@
-package com.worfu.peagang
+package cn.enjoytoday.test
 
 import android.annotation.SuppressLint
 import androidx.databinding.BindingAdapter

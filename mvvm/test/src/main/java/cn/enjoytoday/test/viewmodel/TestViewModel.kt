@@ -1,11 +1,11 @@
-package com.worfu.peagang.viewmodel
+package cn.enjoytoday.test.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.gson.Gson
-import com.worfu.peagang.api.GetCodeReq
-import com.worfu.peagang.api.GetCodeResp
-import com.worfu.peagang.api.TestApi
+import cn.enjoytoday.test.api.GetCodeReq
+import cn.enjoytoday.test.api.GetCodeResp
+import cn.enjoytoday.test.api.TestApi
 import cn.enjoytoday.base.Event
 import cn.enjoytoday.base.annotation.AnnotationInfo
 import cn.enjoytoday.base.base.BaseViewModel

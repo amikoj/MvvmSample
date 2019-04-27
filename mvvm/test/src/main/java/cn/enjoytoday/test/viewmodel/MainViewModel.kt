@@ -1,9 +1,9 @@
-package com.worfu.peagang.viewmodel
+package cn.enjoytoday.test.viewmodel
 
 import android.view.View
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.worfu.peagang.api.TestApi
+import cn.enjoytoday.test.api.TestApi
 import cn.enjoytoday.base.Event
 import cn.enjoytoday.base.base.BaseViewModel
 

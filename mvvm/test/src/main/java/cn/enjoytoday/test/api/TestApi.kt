@@ -1,4 +1,4 @@
-package com.worfu.peagang.api
+package cn.enjoytoday.test.api
 
 import cn.enjoytoday.base.annotation.TestRemoteApi
 import cn.enjoytoday.base.data.remote.BaseResp
@@ -24,7 +24,7 @@ interface TestApi{
 }
 
 //请求
-data class GetCodeReq(val mobile: String, val verify: Int, val type: Int, val timestamp: Long, var SN: String?)
+data class GetCodeReq(val mobile: String, val verify: Int, val type: Int)
 
 //返回
 data class GetCodeResp(val isVerify : Int, val url:String)

@@ -1,9 +1,8 @@
-package com.worfu.peagang.ui
+package cn.enjoytoday.test.ui
 
-import androidx.databinding.BindingAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.worfu.peagang.R
-import com.worfu.peagang.api.JobDesc
+import cn.enjoytoday.test.api.JobDesc
 import cn.enjoytoday.base.mvvm.BaseAdapter
 import com.worfu.peagang.databinding.ItemJobBinding
 import me.jessyan.autosize.utils.LogUtils

@@ -3,8 +3,8 @@
         xmlns:tools="http://schemas.android.com/tools">
     <data>
 
-        <import type="com.worfu.peagang.JobUtils"/>
-        <variable name="jobDesc" type="com.worfu.peagang.api.JobDesc"/>
+        <import type="cn.enjoytoday.test.JobUtils"/>
+        <variable name="jobDesc" type="cn.enjoytoday.test.api.JobDesc"/>
 
     </data>
 

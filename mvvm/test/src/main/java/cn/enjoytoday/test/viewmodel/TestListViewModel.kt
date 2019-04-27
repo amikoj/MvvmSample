@@ -1,8 +1,8 @@
-package com.worfu.peagang.viewmodel
+package cn.enjoytoday.test.viewmodel
 
-import com.worfu.peagang.api.GetJobListReq
-import com.worfu.peagang.api.GetJobListResp
-import com.worfu.peagang.api.JobApi
+import cn.enjoytoday.test.api.GetJobListReq
+import cn.enjoytoday.test.api.GetJobListResp
+import cn.enjoytoday.test.api.JobApi
 import cn.enjoytoday.base.base.BaseViewModel
 import cn.enjoytoday.base.data.remote.BaseResp
 import cn.enjoytoday.base.liveData.CallAdapterLiveData

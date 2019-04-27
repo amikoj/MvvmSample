@@ -1,8 +1,8 @@
-package com.worfu.peagang.ui.fragment
+package cn.enjoytoday.test.ui.fragment
 
 import cn.enjoytoday.base.mvvm.BaseMvvmFragment
 import com.worfu.peagang.databinding.FragmentTestBinding
-import com.worfu.peagang.viewmodel.TestViewModel
+import cn.enjoytoday.test.viewmodel.TestViewModel
 
 /**
  * @ClassName TestFragment

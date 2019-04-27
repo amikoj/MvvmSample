@@ -1,4 +1,4 @@
-package com.worfu.peagang.ui.act
+package cn.enjoytoday.test.ui.act
 
 import android.os.Bundle
 import androidx.lifecycle.Observer
@@ -6,10 +6,9 @@ import com.worfu.peagang.R
 import cn.enjoytoday.base.mvvm.BaseMvvmActivity
 import cn.enjoytoday.base.utils.LogUtils
 import com.worfu.peagang.databinding.ActivityTestBinding
-import com.worfu.peagang.viewmodel.TestViewModel
+import cn.enjoytoday.test.viewmodel.TestViewModel
 import kotlinx.android.synthetic.main.activity_test.*
 import org.jetbrains.anko.toast
-import kotlin.jvm.internal.Reflection
 
 /**
  * @ClassName TestBindingActivity

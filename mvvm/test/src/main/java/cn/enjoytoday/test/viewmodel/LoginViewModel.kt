@@ -1,6 +1,6 @@
-package com.worfu.peagang.viewmodel
+package cn.enjoytoday.test.viewmodel
 
-import com.worfu.peagang.api.TestApi
+import cn.enjoytoday.test.api.TestApi
 import cn.enjoytoday.base.base.BaseViewModel
 
 /**

@@ -1,14 +1,13 @@
-package com.worfu.peagang.ui.fragment
+package cn.enjoytoday.test.ui.fragment
 
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import cn.enjoytoday.base.mvvm.BaseMvvmFragment
 import com.worfu.peagang.databinding.FragmentJobListBinding
-import com.worfu.peagang.ui.TestListAdapter
-import com.worfu.peagang.viewmodel.TestListViewModel
+import cn.enjoytoday.test.ui.TestListAdapter
+import cn.enjoytoday.test.viewmodel.TestListViewModel
 import kotlinx.android.synthetic.main.fragment_job_list.*
-import me.jessyan.autosize.utils.LogUtils
 
 /**
  * @ClassName TestListFragment
@@ -18,10 +17,10 @@ import me.jessyan.autosize.utils.LogUtils
  * @Date 2019/4/11 18:04
  * @Version 1.0
  */
-class TestListFragment:BaseMvvmFragment<FragmentJobListBinding,TestListViewModel>() {
+class TestListFragment:BaseMvvmFragment<FragmentJobListBinding, TestListViewModel>() {
 
 
-    private lateinit var  jobAdapter:TestListAdapter
+    private lateinit var  jobAdapter: TestListAdapter
 
     /**
      * 观察处理

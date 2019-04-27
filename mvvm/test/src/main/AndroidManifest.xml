@@ -28,7 +28,7 @@
 		<!--高德地图配置-->
 		<meta-data android:name="com.amap.api.v2.apikey" android:value="1161ae7db41bd930757fc9331ef2cd4c"/>
 
-		<activity android:name=".ui.MainActivity">
+		<activity android:name="cn.enjoytoday.test.ui.MainActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +40,7 @@
 				<action android:name="android.intent.action.VIEW" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".ui.act.TestBindingActivity" />
+		<activity android:name="cn.enjoytoday.test.ui.act.TestBindingActivity" />
 	</application>
 
 </manifest>

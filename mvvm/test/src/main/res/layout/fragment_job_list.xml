@@ -3,7 +3,7 @@
 
     <data>
         <variable name="viewmodel"
-                  type="com.worfu.peagang.viewmodel.TestListViewModel"/>
+                  type="cn.enjoytoday.test.viewmodel.TestListViewModel"/>
     </data>
 
 

@@ -1,4 +1,4 @@
-package com.worfu.peagang
+package cn.enjoytoday.test
 
 /**
  * @ClassName TestMain
