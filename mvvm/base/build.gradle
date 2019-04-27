@@ -37,7 +37,7 @@ android {
             useProguard true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             testProguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguardTest-rules.pro'
-            buildConfigField("String", "SERVER_ADDRESS", "\"http://www.enjoytoday.cn\"")
+            buildConfigField("String", "SERVER_ADDRESS", "\"http://api.enjoytoday.cn\"")
             manifestPlaceholders = releaseManifest
         }
     }
