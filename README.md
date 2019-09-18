@@ -1,10 +1,6 @@
-# AppFrameWork
-常见android开发框架使用整理
-
-#### MVC模式
+﻿# MvvmSmaple
 
 
-#### MVP模式
+一个 kotlin + ARouter + Retrofit + Mvvm 框架示例
 
 
-#### MVVM模式

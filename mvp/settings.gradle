@@ -1,2 +1,0 @@
-include ':mvvm', ':mainapp'
-include "mvp"
