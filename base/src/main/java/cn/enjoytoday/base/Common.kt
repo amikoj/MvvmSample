@@ -1,5 +1,5 @@
 package cn.enjoytoday.base
-import cn.enjoytoday.base.BuildConfig
+
 
 /**
  * @ClassName Common

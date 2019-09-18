@@ -25,10 +25,9 @@ abstract class BaseMvvmFragment<in T: ViewDataBinding, V: ViewModel>() : BaseFra
      * 泛型占位符
      */
     private  val tClass:Class<T>
-
     private  val vClass:Class<V>
-
     constructor(layoutId:Int):this()
+
 
     init {
         val type = javaClass.genericSuperclass
@@ -36,6 +35,7 @@ abstract class BaseMvvmFragment<in T: ViewDataBinding, V: ViewModel>() : BaseFra
         tClass = types[0] as Class<T>
         vClass = types[1] as Class<V>
     }
+
     /**
      * 数据绑定生成类
      */
@@ -45,7 +45,6 @@ abstract class BaseMvvmFragment<in T: ViewDataBinding, V: ViewModel>() : BaseFra
      * 数据操作ViewModel
      */
     protected lateinit  var viewModel: V
-
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         activity?.let {
@@ -78,7 +77,6 @@ abstract class BaseMvvmFragment<in T: ViewDataBinding, V: ViewModel>() : BaseFra
         return view
     }
 
-
     /**
      *
      * 数据监听回调
@@ -86,11 +84,9 @@ abstract class BaseMvvmFragment<in T: ViewDataBinding, V: ViewModel>() : BaseFra
      */
     abstract fun observe(v:V)
 
-
     /**
      * 重写初始化UI或者data,非必要
      */
    open fun init(view:View)=Unit
-
 
 }

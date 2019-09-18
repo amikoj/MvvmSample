@@ -9,7 +9,4 @@ package cn.enjoytoday.base
  */
 object RouterPath {
 
-    object UserCenter {
-        const val PATH_USER_LOGIN = "/usercenter/login"
-    }
 }
