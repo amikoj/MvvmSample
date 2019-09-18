@@ -107,9 +107,4 @@ dependencies {
     api 'com.gyf.immersionbar:immersionbar:2.3.3'
     api "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 
-
-
-
-
-
 }

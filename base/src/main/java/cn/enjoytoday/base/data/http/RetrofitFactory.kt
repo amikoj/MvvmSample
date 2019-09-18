@@ -1,6 +1,6 @@
-package cn.enjoytoday.base.data.remote
+package cn.enjoytoday.base.data.http
 
-import cn.enjoytoday.base.base.Common
+import cn.enjoytoday.base.Common
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Request
@@ -11,22 +11,28 @@ import java.util.concurrent.TimeUnit
 
 /**
  * @ClassName RetrofitFactory
- * @Description TODO
+ * @Description Retrofit工厂，单例
  * @Author hfcai
  * @Date 2019/4/4 16:27
  * @Version 1.0
  */
-
-/*
-    Retrofit工厂，单例
- */
 class RetrofitFactory private constructor() {
 
-    /*
-        单例实现
+    /**
+     * 单例实现
      */
     companion object {
-        val instance: RetrofitFactory by lazy { RetrofitFactory() }
+        const val CONTENT_TYPE = "Content-Type"
+        const val JSON_TYPE = "application/json"
+        const val CHARSET = "charset"
+        const val UTF_ENCODE = "UTF-8"
+
+        const val TIME_OUT = 30L
+        val instance: RetrofitFactory by lazy {
+            RetrofitFactory()
+        }
+
+
     }
 
     private val interceptor: Interceptor
@@ -38,10 +44,9 @@ class RetrofitFactory private constructor() {
         interceptor = Interceptor { chain ->
             val request: Request = chain.request()
                 .newBuilder()
-                .addHeader("Content-Type", "application/json")
-                .addHeader("charset", "UTF-8")
+                .addHeader(CONTENT_TYPE, JSON_TYPE)
+                .addHeader(CHARSET, UTF_ENCODE)
                 .build()
-
             chain.proceed(request)
         }
 
@@ -54,29 +59,30 @@ class RetrofitFactory private constructor() {
             .build()
     }
 
-    /*
-        OKHttp创建
+
+    /**
+     * OKHttp创建
      */
     private fun initClient(): OkHttpClient {
         return OkHttpClient.Builder()
             .addInterceptor(initLogInterceptor())
             .addInterceptor(interceptor)
-            .connectTimeout(30, TimeUnit.SECONDS)
-            .readTimeout(30, TimeUnit.SECONDS)
+            .connectTimeout(TIME_OUT, TimeUnit.SECONDS)
+            .readTimeout(TIME_OUT, TimeUnit.SECONDS)
             .build()
     }
 
-    /*
-        日志拦截器
+    /**
+     * 日志拦截器
      */
-    private fun initLogInterceptor(): HttpLoggingInterceptor {
-        val interceptor = HttpLoggingInterceptor()
-        interceptor.level = HttpLoggingInterceptor.Level.BODY
+    private fun initLogInterceptor(): HttpLogInterceptor {
+        val interceptor = HttpLogInterceptor()
+        interceptor.setLevel(HttpLogInterceptor.Level.BODY)
         return interceptor
     }
 
-    /*
-        具体服务实例化
+    /**
+     * 具体服务实例化
      */
     fun <T> create(service: Class<T>): T {
         return retrofit.create(service)

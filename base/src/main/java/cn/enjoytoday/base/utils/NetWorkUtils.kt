@@ -3,8 +3,8 @@ package cn.enjoytoday.base.utils
 import android.content.Context
 import android.net.ConnectivityManager
 
-/*
-    网络工具
+/**
+ * 网络工具
  */
 object NetWorkUtils {
 

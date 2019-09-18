@@ -10,9 +10,9 @@ import android.content.Context
 class Utils private constructor() {
 
     companion object {
-        //
-        private var SPARED_PREFERENCES_NAME = "base_shred_preferences_name"
 
+
+        private var SPARED_PREFERENCES_NAME = "base_shred_preferences_name"
 
         @SuppressLint("StaticFieldLeak")
         private var context: Context? = null

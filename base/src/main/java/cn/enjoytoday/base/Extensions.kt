@@ -12,8 +12,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProviders
 import com.alibaba.android.arouter.launcher.ARouter
 import com.bumptech.glide.request.RequestOptions
-import cn.enjoytoday.base.base.Common
-import cn.enjoytoday.base.base.RouterPath
 import cn.enjoytoday.base.utils.*
 
 

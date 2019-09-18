@@ -1,4 +1,4 @@
-package cn.enjoytoday.base.utils
+package cn.enjoytoday.base.thread
 
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors

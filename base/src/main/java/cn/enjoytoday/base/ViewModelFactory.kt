@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import cn.enjoytoday.base.data.BaseRepository
+import cn.enjoytoday.base.data.RepositoryImpl
 
 
 /**
@@ -15,7 +15,7 @@ import cn.enjoytoday.base.data.BaseRepository
  * actually necessary in this case, as the product ID can be passed in a public method.
  */
 class ViewModelFactory private constructor(
-     val repository: BaseRepository
+     val repository: RepositoryImpl
 ) : ViewModelProvider.NewInstanceFactory() {
 
     /**
@@ -30,12 +30,8 @@ class ViewModelFactory private constructor(
         @Volatile private var INSTANCE: ViewModelFactory? = null
 
         fun getInstance() =
-            INSTANCE
-                    ?: synchronized(ViewModelFactory::class.java) {
-                INSTANCE
-                        ?: ViewModelFactory(
-                                BaseRepository())
-                    .also { INSTANCE = it }
+            INSTANCE ?: synchronized(ViewModelFactory::class.java) {
+                INSTANCE ?: ViewModelFactory(RepositoryImpl()).also { INSTANCE = it }
             }
 
 

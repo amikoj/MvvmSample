@@ -1,8 +1,7 @@
-package cn.enjoytoday.base.base
+package cn.enjoytoday.base
 
 import android.app.Application
 import android.content.Context
-import cn.enjoytoday.base.BuildConfig
 import cn.enjoytoday.base.utils.Utils
 import com.alibaba.android.arouter.launcher.ARouter
 import com.baidu.mobstat.StatService

@@ -1,9 +1,9 @@
-package cn.enjoytoday.base.mvvm
+package cn.enjoytoday.base.pattern
 
 import android.view.LayoutInflater
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModel
-import cn.enjoytoday.base.base.BaseActivity
+import cn.enjoytoday.base.BaseActivity
 import cn.enjoytoday.base.obtainViewModel
 import cn.enjoytoday.base.utils.LogUtils
 import java.lang.reflect.ParameterizedType
@@ -16,7 +16,7 @@ import java.lang.reflect.ParameterizedType
  * @Version 1.0
  *
  */
-abstract class BaseMvvmActivity<in T: ViewDataBinding, V:ViewModel>():BaseActivity() {
+abstract class BaseMvvmActivity<in T: ViewDataBinding, V:ViewModel>(): BaseActivity() {
     /**
      * 泛型占位符
      */
@@ -52,33 +52,17 @@ abstract class BaseMvvmActivity<in T: ViewDataBinding, V:ViewModel>():BaseActivi
         viewBinding=  (method.invoke(null,layoutInflater) as T).apply {
             val objClass = javaClass
             try{
-
-//                objClass.methods.forEach{
-//                    LogUtils.e("获取方法:${it.name},and returnType:${it.returnType},and paramters length:${it.parameterTypes}")
-//                }
                 val mt =   objClass.methods.last {
                     it.name.startsWith("set") && it.parameterTypes.size==1 && it.parameterTypes[0] == vClass
                 }
-
-
                 mt?.isAccessible = true
                 mt?.invoke(this,viewModel)
             }catch (e:Exception){
                 e.printStackTrace()
-                LogUtils.e("获取viewModel异常:${e.message}")
             }
             lifecycleOwner = this@BaseMvvmActivity
         }
         setContentView(viewBinding.root)
-
-
-
-    }
-
-    private fun test(){
-
-
-
     }
 
 

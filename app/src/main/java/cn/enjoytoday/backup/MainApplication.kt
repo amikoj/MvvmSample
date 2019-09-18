@@ -1,8 +1,8 @@
 package cn.enjoytoday.backup
 
-import cn.enjoytoday.base.base.BaseApplication
+import cn.enjoytoday.base.BaseApplication
 
-class MainApplication:BaseApplication() {
+class MainApplication: BaseApplication() {
 
 
     override fun onCreate() {

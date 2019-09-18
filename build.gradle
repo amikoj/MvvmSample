@@ -1,8 +1,6 @@
 buildscript {
     ext.kotlin_version = '1.3.21'
 
-
-
     ext.debugManifest =  [
             BAIDU_STAT_ID: "27e7c4ce91",
             CHANNEL:"debug",
@@ -13,8 +11,8 @@ buildscript {
             IS_WIFI_LOCATION:true
     ]
     ext.releaseManifest = [
-            BAIDU_STAT_ID: "cdc0cd589e",
-            CHANNEL:"debug",
+            BAIDU_STAT_ID: "27e7c4ce91",
+            CHANNEL:"release",
             IS_EXCEPTION_LOG:false,
             IS_ONLY_WIFI:false,
             IS_CELL_LOCATION:true,

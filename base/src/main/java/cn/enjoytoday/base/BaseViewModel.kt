@@ -1,12 +1,11 @@
-package cn.enjoytoday.base.base
+package cn.enjoytoday.base
 
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import androidx.lifecycle.ViewModel
 import com.bumptech.glide.Glide
-import cn.enjoytoday.base.ViewModelFactory
-import cn.enjoytoday.base.data.BaseRepository
-import cn.enjoytoday.base.data.remote.RetrofitFactory
+import cn.enjoytoday.base.data.RepositoryImpl
+import cn.enjoytoday.base.data.http.RetrofitFactory
 import java.lang.reflect.ParameterizedType
 
 abstract class BaseViewModel<T> : ViewModel() {
@@ -15,7 +14,7 @@ abstract class BaseViewModel<T> : ViewModel() {
      * 网络请求泛型占位符
      */
     private  val tClass:Class<T>?
-    val resp: BaseRepository = ViewModelFactory.getInstance().repository
+    val resp: RepositoryImpl = ViewModelFactory.getInstance().repository
     init {
         val type = javaClass.genericSuperclass
         val types = (type as ParameterizedType).actualTypeArguments

@@ -1,4 +1,4 @@
-package cn.enjoytoday.base.mvvm
+package cn.enjoytoday.base.pattern
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.ViewDataBinding
 import androidx.lifecycle.ViewModel
-import cn.enjoytoday.base.base.BaseFragment
+import cn.enjoytoday.base.BaseFragment
 import cn.enjoytoday.base.obtainViewModel
 import cn.enjoytoday.base.utils.LogUtils
 import java.lang.reflect.ParameterizedType
@@ -19,7 +19,7 @@ import java.lang.reflect.ParameterizedType
  * @Date 2019/4/11 16:19
  * @Version 1.0
  */
-abstract class BaseMvvmFragment<in T: ViewDataBinding, V: ViewModel>() :BaseFragment(){
+abstract class BaseMvvmFragment<in T: ViewDataBinding, V: ViewModel>() : BaseFragment(){
 
     /**
      * 泛型占位符

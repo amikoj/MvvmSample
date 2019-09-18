@@ -1,4 +1,4 @@
-package cn.enjoytoday.base.base
+package cn.enjoytoday.base
 
 /**
  * @ClassName RouterPath

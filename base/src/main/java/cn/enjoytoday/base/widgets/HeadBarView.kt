@@ -14,8 +14,7 @@ import kotlinx.android.synthetic.main.head_bar_view.view.*
 import java.lang.reflect.InvocationTargetException
 
 
-class HeadBarView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = -1) :
-    FrameLayout(context, attrs, defStyleAttr) {
+class HeadBarView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = -1) : FrameLayout(context, attrs, defStyleAttr) {
 
     private val defaultColor = Color.parseColor("#333333")
 

@@ -3,7 +3,7 @@ package cn.enjoytoday.base.utils
 import android.annotation.SuppressLint
 import android.content.Context
 import cn.enjoytoday.base.ViewModelFactory
-import cn.enjoytoday.base.base.Common
+import cn.enjoytoday.base.Common
 
 /**
  * @ClassName SPUtils
@@ -13,8 +13,6 @@ import cn.enjoytoday.base.base.Common
  * @Version 1.0
  */
 class SPUtils private constructor(val context: Context,val SP_NAME:String = Common.APP_SP_NAME){
-
-
 
 
     public fun putString(key:String,value:String){
@@ -70,9 +68,6 @@ class SPUtils private constructor(val context: Context,val SP_NAME:String = Comm
             is Long -> sp.edit().putLong(key,value).apply()
         }
     }
-
-
-
 
 
 

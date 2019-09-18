@@ -1,14 +1,12 @@
-package cn.enjoytoday.base.base
+package cn.enjoytoday.base
 
 import android.Manifest
 import android.annotation.SuppressLint
 import android.content.ComponentName
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import cn.enjoytoday.base.R
 import com.baidu.mobstat.StatService
 import com.gyf.barlibrary.ImmersionBar
 import com.tbruyelle.rxpermissions2.RxPermissions
@@ -20,9 +18,7 @@ import com.tbruyelle.rxpermissions2.RxPermissions
 abstract class BaseActivity : AppCompatActivity() {
 
     var rxPermissions: RxPermissions? = null
-
     lateinit var context: AppCompatActivity
-
     //移动统计名称
     protected var label:String = ""
 
